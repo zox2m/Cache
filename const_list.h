@@ -1,0 +1,33 @@
+#pragma once
+
+// I-format
+#define ADDI 0x8
+#define ADDIU 0x9
+#define ANDI 0xc
+#define BEQ 0x4
+#define BNE 0x5
+#define LUI 0xf
+#define LW 0x23
+#define ORI 0xd
+#define SLTI 0xa
+#define SLTIU 0xb
+#define SW 0x2b
+
+// R-format
+#define ADD 0x20
+#define ADDU 0x21
+#define AND 0x24
+#define JR 0x8
+#define NOR 0x27
+#define OR 0x25
+#define SLT 0x2a
+#define SLTU 0x2b
+#define SLL 0x00
+#define SRL 0x2
+#define SUB 0x22
+#define SUBU 0x23
+#define NOP 0x0
+
+// J-format
+#define J 0x2
+#define JAL 0x3
